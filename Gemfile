@@ -46,10 +46,10 @@ group :development do
   # Use sqlite3 as the database for Active Record
   gem 'sqlite3'
 end
+
 group :production do
   # postgress gem
   gem 'pg'
-  
   gem 'rails_12factor'
 end
 
