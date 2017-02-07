@@ -1,19 +1,28 @@
-$navbar-default-bg: #8fa0bc;
+$navbar-default-bg: #848A4D;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+body {
+  background-color: #425F7F;
+}
+
+.nav.navbar-nav li a {
+   color: #47472F;
+   font-size: 1.2em;
+}
+ 
 #logo {
   float: left;
   font-size: 1.7em;
-  color: #633636;
+  color: #47472F;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 
 #logo:hover {
-  color: #633636;
+  color: #47472F;
   text-decoration: none;
 }
 
@@ -65,15 +74,20 @@ $navbar-default-bg: #8fa0bc;
   padding-top: 15px;
   padding-bottom: 15px;
 }
+
 footer {
   margin-top: 45px;
   padding-top: 5px;
-  border-top: 1px solid eaeaea;
-  color: #777;
+  border-top: 1px solid #47472F;;
+  color: #47472F;;
+}
+
+a:link {
+  color: #47472F;
 }
 
 footer a:hover {
-  color: #222;
+  color: #47472F;;
 }
 
 footer small {
